@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <stddef.h>
 
-#ifdef __cplusplus
+#ifdef __wrapper
 extern "C"
 {
 #endif
@@ -24,7 +24,7 @@ extern "C"
         const CRGB8 *colors_ptr,
         size_t colors_len);
 
-#ifdef __cplusplus
+#ifdef __wrapper
 }
 #endif
 
